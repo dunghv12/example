@@ -13,6 +13,3 @@ class Pipi(db.Model):
     def __init__(self,name,birth,gender,class_name,address):
         self.name = name
         self.birth = birth
-        self.gender = gender
-        self.class_name = class_name
-        self.address=address

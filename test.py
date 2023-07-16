@@ -25,7 +25,6 @@ class Student(db.Model):
     name=db.Column(String(100),nullable=True)
     birth=db.Column(db.Date)
     gender=db.Column(String(20))
-    class_name = db.Column(String(20))
     # age=db.Column(Integer)
     def __init__(self,name,birth,gender,class_name,address):
         self.name = name

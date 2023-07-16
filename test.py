@@ -4,6 +4,7 @@ from sqlalchemy import ARRAY
 from flask_migrate import Migrate
 from flask import Flask
 from flask import Flask
+from flask_migrate import Migrate
 
 app=Flask(__name__)
 class Books(db.Model):

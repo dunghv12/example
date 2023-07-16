@@ -3,7 +3,7 @@ from sqlalchemy import Column,Integer,String
 from sqlalchemy import ARRAY
 from flask_migrate import Migrate
 from flask import Flask
-# from flask import Flask
+from flask import Flask
 
 app=Flask(__name__)
 class Books(db.Model):

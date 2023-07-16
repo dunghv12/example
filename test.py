@@ -18,7 +18,6 @@ class Books(db.Model):
         self.name = name
         self.page_count = page_count
         self.author_id = author_id
-        self.category_id = category_id
 
 
 class Student(db.Model):

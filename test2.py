@@ -1,5 +1,6 @@
 from Restapi.extension import db
 from sqlalchemy import Column,Integer,String
+from sqlalchemy import Column,Integer,String
 
 class Pipi(db.Model):
     __tablename__ = 'pipi'
